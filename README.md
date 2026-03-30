@@ -8,6 +8,7 @@ Technologies used:
 - [ ] H2 Database
 - [ ] Spring Data JPA
 - [ ] Lombok
+- [ ] React JS
 
 Planned features
 
