@@ -15,4 +15,6 @@ Planned features
 - [ ] User registration/authentication 
 - [ ] Course creation(video lectures, comments, likes)
 - [ ] Progress tracking 
+- [ ] Chat function
 - [ ] AI-powered learning
+
