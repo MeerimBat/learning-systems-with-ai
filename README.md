@@ -18,3 +18,4 @@ Planned features
 - [ ] Chat function
 - [ ] AI-powered learning
 
+
