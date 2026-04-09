@@ -9,7 +9,7 @@ public class UserRegistrationDto {
     private String username;
     private String password;
 
-    UserRegistrationDto() {
+    public UserRegistrationDto() {
     }
 
 
