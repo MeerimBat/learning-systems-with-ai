@@ -42,7 +42,7 @@ class UserServiceImplTest {
 
         //given(userRepository).findByUsername("Bebe");
              // .willReturn(Optional.empty());
-        when(userRepository.findByUsername("Bebe")).thenReturn(Optional.empty())
+        when(userRepository.findByUsername("Bebe")).thenReturn(Optional.empty());
 
         when(passwordEncoder.encode("123")).thenReturn("encoded123");
 
@@ -62,7 +62,7 @@ class UserServiceImplTest {
 
         when(userRepository.findByUsername("Bebe")).thenReturn(Optional.of(new User()));
 
-        RuntimeException ex =assertThrows(RuntimeException.class),
+        RuntimeException ex =assertThrows(RuntimeException.class);
             () -> userService.registerUser(dto));
 
         assertEquals("Username already exists!", ex.getMessage());
