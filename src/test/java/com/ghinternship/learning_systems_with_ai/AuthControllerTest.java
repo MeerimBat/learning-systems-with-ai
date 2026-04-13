@@ -3,7 +3,6 @@ package com.ghinternship.learning_systems_with_ai;
 import com.ghinternship.learning_systems_with_ai.dto.UserRegistrationDto;
 import com.ghinternship.learning_systems_with_ai.model.User;
 import com.ghinternship.learning_systems_with_ai.repository.UserRepository;
-import jdk.internal.jshell.tool.ConsoleIOContext;
 import org.junit.jupiter.api.MediaType;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,7 +45,7 @@ public class AuthControllerTest {
                         .content(objectMapper.writevalueAsString(dto))
                 .andExpect(status().isCreated())
                 .andExpect(jasonPath("$.username").value("Bebe"));
-        
+
     }
 
     }
