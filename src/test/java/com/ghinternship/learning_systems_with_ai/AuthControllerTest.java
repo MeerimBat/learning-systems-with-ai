@@ -50,7 +50,10 @@ public class AuthControllerTest {
 
     }
 
-    @Test
+private SpringBootTest jasonPath(String s) {
+}
+
+@Test
     void shouldReturnBadRequestWhenUsernameExists() throws Exception {
         // given (existing user)
         User user = new User();
