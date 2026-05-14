@@ -72,7 +72,7 @@ private SpringBootTest jasonPath(String s) {
                 .andExpect(status().isBadRequest())
                 .andExpect(jsonPath("$.error").value("Username already exists"));
 
-    }
+}
     @Test
     void shouldReturnUserViaHttp() throws Exception {
         User user = new User();
